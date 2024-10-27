@@ -1,6 +1,6 @@
 # Installation Instructions
 
-This guide provides instructions for installing and setting up the computer-use project on both Windows and Ubuntu systems.
+This guide provides instructions for installing and setting up the computer-use project on both Windows and Ubuntu systems. Why not Mac? Because they suck!
 
 ## Prerequisites
 
@@ -39,7 +39,7 @@ This guide provides instructions for installing and setting up the computer-use 
 ### Windows Installation
 1. Open PowerShell and clone the repository:
    ```powershell
-   git clone https://github.com/yourusername/computer-use.git
+   git clone https://github.com/phuzzled/agentsmith.git
    cd computer-use
    ```
 
@@ -59,7 +59,7 @@ This guide provides instructions for installing and setting up the computer-use 
 ### Ubuntu Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/computer-use.git
+   git clone https://github.com/phuzzled/agentsmith.git
    cd computer-use
    ```
 
