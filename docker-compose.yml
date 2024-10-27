@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  computer-use:
+    build:
+      context: .
+      dockerfile: Dockerfile.ollama
+    volumes:
+      # Mount your local code for development (optional)
+      - ./examples:/app/examples
+    environment:
+      - DISPLAY=:1
+      - OLLAMA_HOST=localhost
+      - OLLAMA_PORT=11434
+      - OLLAMA_SCHEME=http
+    ports:
+      - "11434:11434"  # Ollama API port
+    # Enable if you want to use GPU
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: 1
+    #           capabilities: [gpu]
